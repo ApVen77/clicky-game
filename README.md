@@ -1,19 +1,19 @@
 # Clicky-game
-* Reacte
+# React
 
 ## Overview
-In this assignment, I'll create a web app that allows users to view and leave comments on the latest news. It is not going to actually write any articles; instead,the app will use Mongoose and Cheerio  to scrape news from a website. In this case the latest hiphop news. 
+This assignment will create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
 Developer: April Long <br>
 Institute: University of Denver <br>
 Date Published: November 6, 2019 <br>
-Made with: Node.js, Express, Handlebars, and MySql.
+Made with: React
 
 
 **See here:**
 
-Github: https://github.com/ApVen77/Mongoose <br>
-Heroku: https://pacific-oasis-98585.herokuapp.com/ 
+Github: https://github.com/ApVen77/clicky-game <br>
+Heroku: hhttps://git.heroku.com/limitless-brook-91231.git
 
 ### Getiing Started
 
