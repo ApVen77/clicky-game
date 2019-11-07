@@ -11,9 +11,7 @@ const ScoreCard = props => (
             <li>
                 Score: {props.score} | Top Score: {props.topScore}
             </li>
-        <li>
-
-        </li>
+        <li> Click an image to begin! </li>
         </ul>
         {/* <h2 className="score"> Your Score: {props.total}</h2>
         <h2> className= "status> {props.status}</h2> */}
