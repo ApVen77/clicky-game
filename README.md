@@ -13,7 +13,7 @@ Made with: React
 **See here:**
 
 Github: https://github.com/ApVen77/clicky-game <br>
-Heroku: https://git.heroku.com/limitless-brook-91231.git
+Heroku: https://salty-hamlet-32624.herokuapp.com/
 
 ### Getiing Started
 
