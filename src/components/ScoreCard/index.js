@@ -2,10 +2,11 @@ import React from "react";
 import "./style.css";
 
 const ScoreCard = props => (
+    
     <div className="gameScore">
         <ul>
             <li>
-                <a href ="/">Clicky Game</a>
+                <a href ="/"><strong>Clicky Game</strong></a>
             </li>
             <li>
                 Score: {props.score} | Top Score: {props.topScore}

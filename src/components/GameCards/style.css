@@ -8,12 +8,13 @@
   width: 270px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   overflow: hidden;
+  
 }
 
 img {
 
-  height: -webkit-fill-available;
-  weight: -webkit-fill-available;
+  width: -webkit-fill-available;
+
 
 
 }

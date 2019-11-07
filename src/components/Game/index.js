@@ -62,8 +62,10 @@ class Game extends Component {
     render() {
         return (
             <div>
-                <Wrapper>
+
                 <ScoreCard score={this.state.score} topScore ={this.state.topScore} />
+                <Wrapper>
+                
                 <div className="container">
                     {this.state.cards.map(item => (
                         <GameCards src={item.image} id={item.id} handleClick = {this.handleItemClick}/>
@@ -71,6 +73,7 @@ class Game extends Component {
                 </div>
 
                 </Wrapper>
+                
             </div>
         )
     }
