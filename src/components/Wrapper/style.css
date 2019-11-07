@@ -1,6 +1,6 @@
 .wrapper {
     padding-top: 50px;
-    /* background: rgb(9, 148, 241); */
+    background-color: blue;
     background: url("http://home.bt.com/images/how-to-say-hello-in-7-different-languages-136394549785403901-141121162038.jpg") center;
     display: flex;
     flex-flow: row wrap;

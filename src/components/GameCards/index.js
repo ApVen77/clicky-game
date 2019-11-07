@@ -9,7 +9,8 @@ const GameCards = props => (
     <div className="container-hover">
       <img
         alt="cards"
-        src={props.src} onClick={() =>{props.handleClick(props.id)}}
+        src={props.src} 
+        onClick={() =>{props.handleClick(props.id)}}
       />
       
     </div>
@@ -20,3 +21,4 @@ const GameCards = props => (
 
 
 export default GameCards;
+

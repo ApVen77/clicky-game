@@ -59,20 +59,36 @@ class Game extends Component {
         }
         return cards;
     }
+
+    gameOver = () => {
+        if (this.state.score > this.state.topScore) {
+          this.setState({topScore: this.state.score}, function() {
+            console.log(this.state.topScore);
+          });
+        }
+        this.state.cards.forEach(card => {
+          card.count = 0;
+        });
+        alert(`Game Over :( \nscore: ${this.state.score}`);
+        this.setState({score: 0});
+        return true;
+      }
+    
     render() {
         return (
             <div>
 
                 <ScoreCard score={this.state.score} topScore ={this.state.topScore} />
-                <Wrapper>
                 
                 <div className="container">
+                <Wrapper>
+
                     {this.state.cards.map(item => (
                         <GameCards src={item.image} id={item.id} handleClick = {this.handleItemClick}/>
                     ))}
-                </div>
 
                 </Wrapper>
+                </div>
                 
             </div>
         )

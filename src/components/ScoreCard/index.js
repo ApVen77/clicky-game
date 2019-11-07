@@ -11,6 +11,9 @@ const ScoreCard = props => (
             <li>
                 Score: {props.score} | Top Score: {props.topScore}
             </li>
+        <li>
+
+        </li>
         </ul>
         {/* <h2 className="score"> Your Score: {props.total}</h2>
         <h2> className= "status> {props.status}</h2> */}
